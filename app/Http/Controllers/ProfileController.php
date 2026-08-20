@@ -12,9 +12,9 @@ class ProfileController extends Controller
     public function index()
     {
         $identitas = [
-            'nama_sekolah'      => 'SMK Negeri Digital Nusantara',
+            'nama_sekolah'      => 'SMK Negeri 1 Garut',
             'program_keahlian'  => 'Rekayasa Perangkat Lunak (RPL)',
-            'wali_kelas'        => 'Bpk./Ibu Wali Kelas XI RPL 05',
+            'wali_kelas'        => 'Ibu Erna Lathifah S.sy Wali Kelas XI RPL 05',
             'akreditasi'        => 'A — Unggul',
         ];
 
