@@ -1,59 +1,76 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Website Profil XI RPL
+Website ini merupakan proyek pembelajaran
+kolaborasi Git dan GitHub.
+## Anggota Tim
+1. Nazwar - Project Manager
+2. Annur - Developer Profil
+3. Azfa - Developer anggota
+4. jihan - Developer Kontak
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
 
-## About Laravel
+PERTANYAAN REFLEKSI
+1. Apa perbedaan bekerja sendiri dengan bekerja menggunakan Git dan GitHub?
+2. Apa manfaat branch?
+3. Mengapa Pull Request diperlukan?
+4. Apa manfaat Code Review?
+5. Error apa yang paling sulit kalian selesaikan?
+6. Bagaimana kalian menemukan solusinya?
+7. Apa kontribusi terbesar kalian dalam kelompok?
+8. Jika menjadi programmer profesional, kebiasaan apa dari kegiatan ini yang akan
+kalian pertahankan?
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+JAWABAN
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Project Manager (PM)
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+1. Perbedaan Bekerja Sendiri vs Git & GitHub: Bekerja sendiri dilakukan manual dan berisiko menimpa file, sedangkan Git & GitHub memungkinkan kolaborasi terstruktur via branch dan pencatatan histori commit.
 
-## Learning Laravel
+2. Manfaat Branch: Menjaga branch main tetap stabil dan bebas bug dengan memisahkan area eksperimen koding dari proyek utama.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+3. Mengapa Pull Request Diperlukan: Berfungsi sebagai pintu kontrol kualitas wajib sebelum kode dari branch fitur digabungkan ke branch utama.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+4. Manfaat Code Review: Memastikan kerapian struktur kode, kebenaran rute, dan mencegah adanya file penting yang terhapus secara tidak sengaja.
 
-## Laravel Sponsors
+5. Error Terhitung Paling Sulit: Penolakan push (! [rejected] main -> main (fetch first)) akibat perbedaan histori commit awal di GitHub.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+6. Solusi Error: Membaca petunjuk terminal, lalu menggunakan perintah git push --force atau git pull --allow-unrelated-histories.
 
-### Premium Partners
+7. Kontribusi Terbesar: Menyiapkan struktur awal proyek Laravel, mengatur rute/controller dasar, mengundang collaborator, serta mengelola review PR dan merge.
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+8. Kebiasaan Profesional: Selalu menerapkan review Pull Request, melarang push langsung ke main, dan menjaga dokumentasi repositori.
 
-## Contributing
+Developer Fitur (Profil / Anggota)
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+1. Perbedaan Bekerja Sendiri vs Git & GitHub: Bekerja sendiri memerlukan penggabungan kode manual lewat salin-tempel, sementara Git menggabungkan file otomatis secara sistemik.
 
-## Code of Conduct
+2. Manfaat Branch: Memberi ruang aman untuk fokus mengembangkan modul sendiri tanpa takut merusak kodingan anggota lain.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+3. Mengapa Pull Request Diperlukan: Menjadi sarana untuk mengajukan hasil pengerjaan fitur agar ditinjau oleh PM sebelum resmi masuk ke proyek utama.
 
-## Security Vulnerabilities
+4. Manfaat Code Review: Mendapat masukan berharga terkait kerapian penulisan Blade HTML, efisiensi class CSS, dan struktur file.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+5. Error Terhitung Paling Sulit: Terjadinya git conflict saat ada baris kode pada file shared yang bentrok dengan perubahan anggota lain.
 
-## License
+6. Solusi Error: Membaca penanda konflik (<<<<<<< HEAD), berdiskusi dengan tim untuk menentukan kode yang dipakai, menghapus tag konflik, lalu commit ulang.
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+7. Kontribusi Terbesar: Membangun modul Profil/Anggota secara utuh dari Controller hingga tampilan UI Blade Glassmorphism.
+
+8. Kebiasaan Profesional: Selalu membuat branch baru per fitur dan membiasakan git pull origin main sebelum mulai mengoding.
+
+Developer Kontak / Frontend
+
+1. Perbedaan Bekerja Sendiri vs Git & GitHub: Bekerja sendiri rentan kehilangan versi file lama saat terjadi kesalahan, sedangkan Git menyimpan seluruh rekam jejak histori kode.
+
+2. Manfaat Branch: Memungkinkan pengerjaan tampilan dan formulir kontak secara terisolasi tanpa terganggu update fitur lain.
+
+3. Mengapa Pull Request Diperlukan: Memastikan halaman kontak sudah terhubung dengan benar ke rute utama dan tampilannya serasi dengan landing page.
+
+4. Manfaat Code Review: Membantu mendeteksi penulisan tag HTML yang terlewat, typo kelas Tailwind, atau link rute yang rusak.
+
+5. Error Terhitung Paling Sulit: Ditolaknya proses push (non-fast-forward) karena branch lokal tertinggal dari commit terbaru di server remote.
+
+6. Solusi Error: Melakukan git pull origin main untuk memperbarui kode lokal, menyelesaikan penyesuaian, lalu melakukan git push ulang.
+
+7. Kontribusi Terbesar: Membuat antarmuka kartu informasi dan form kontak yang responsif serta memastikan seluruh tombol navigasi terhubung.
+
+8. Kebiasaan Profesional: Menulis pesan commit yang jelas dan deskriptif serta menjaga komunikasi aktif antar sesama developer.
