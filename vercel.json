@@ -8,6 +8,8 @@
         }
     },
     "env": {
+        "APP_URL": "https://website-profil-xi-rpl-5-x8gm.vercel.app",
+        "ASSET_URL": "https://website-profil-xi-rpl-5-x8gm.vercel.app",
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
         "APP_PACKAGES_CACHE": "/tmp/packages.php",
