@@ -14,7 +14,7 @@ class ProfileController extends Controller
         $identitas = [
             'nama_sekolah'      => 'SMK Negeri 1 Garut',
             'program_keahlian'  => 'Rekayasa Perangkat Lunak (RPL)',
-            'wali_kelas'        => 'Ibu Erna Lathifah S.sy Wali Kelas XI RPL 05',
+            'wali_kelas'        => 'Ibu Erna Lathifah S.sy Wali Kelas XI RPL 02',
             'akreditasi'        => 'A — Unggul',
         ];
 
@@ -27,7 +27,7 @@ class ProfileController extends Controller
             'Mempersiapkan lulusan yang siap kerja maupun melanjutkan pendidikan di bidang IT.',
         ];
 
-        $deskripsi = 'XI RPL 05 adalah kelas yang menekankan pembelajaran berbasis proyek nyata, mulai dari perancangan antarmuka, pengembangan aplikasi web dan mobile, hingga manajemen basis data. Suasana belajar dibangun dengan semangat kolaboratif — setiap siswa saling melengkapi peran, mulai dari perencanaan, desain, hingga implementasi teknis.';
+        $deskripsi = 'XI RPL 02 adalah kelas yang menekankan pembelajaran berbasis proyek nyata, mulai dari perancangan antarmuka, pengembangan aplikasi web dan mobile, hingga manajemen basis data. Suasana belajar dibangun dengan semangat kolaboratif — setiap siswa saling melengkapi peran, mulai dari perencanaan, desain, hingga implementasi teknis.';
 
         return view('profil.index', compact('identitas', 'visi', 'misi', 'deskripsi'));
     }

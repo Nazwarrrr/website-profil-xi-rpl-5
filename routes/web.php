@@ -7,7 +7,7 @@ use App\Http\Controllers\KontakController;
 
 /*
 |--------------------------------------------------------------------------
-| Web Routes — Website Profil XI RPL 05
+| Web Routes — Website Profil XI RPL 02
 |--------------------------------------------------------------------------
 | Setiap route diarahkan ke controller sesuai role masing-masing.
 */

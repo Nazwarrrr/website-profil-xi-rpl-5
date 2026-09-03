@@ -8,10 +8,10 @@
     <div class="container" style="text-align:center; max-width: 44rem;">
         <span class="eyebrow reveal">Sistem Informasi &amp; Portfolio Kelas</span>
         <h1 class="hero-title reveal">
-            Welcome to <span class="accent-text">XI RPL 05</span> Digital Space
+            Welcome to <span class="accent-text">XI RPL 02</span> Digital Space
         </h1>
         <p class="section-sub reveal" style="margin: 0 auto 2rem;">
-            Ruang digital resmi kelas XI RPL 05 — tempat kami memperkenalkan identitas kelas,
+            Ruang digital resmi kelas XI RPL 02 — tempat kami memperkenalkan identitas kelas,
             anggota tim, serta membuka jalur komunikasi untuk kolaborasi dan informasi lebih lanjut.
         </p>
         <div class="reveal" style="display:flex; gap:0.9rem; justify-content:center; flex-wrap:wrap;">
@@ -31,7 +31,7 @@
                 </div>
                 <h3 style="font-size:1.1rem; margin-bottom:0.5rem;">Profil Kelas</h3>
                 <p style="color:var(--text-secondary); font-size:0.9rem; margin-bottom:1.4rem;">
-                    Kenali identitas, visi, dan misi XI RPL 05 — mulai dari program keahlian hingga suasana belajar sehari-hari.
+                    Kenali identitas, visi, dan misi XI RPL 02 — mulai dari program keahlian hingga suasana belajar sehari-hari.
                 </p>
                 <a href="{{ route('profil.index') }}" class="btn btn-ghost btn-block">Lihat Profil Lengkap →</a>
             </div>

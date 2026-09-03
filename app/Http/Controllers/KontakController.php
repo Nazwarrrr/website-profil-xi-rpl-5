@@ -12,7 +12,7 @@ class KontakController extends Controller
     public function index()
     {
         $kontak = [
-            'email'     => 'xirpl05@sekolahdigital.sch.id',
+            'email'     => 'xirpl02@sekolahdigital.sch.id',
             'instagram' => '@laravellequent_11rpl2',
             'alamat'    => 'Jl. cimanuk no 309A kelurahan pataruman kecamatan tarogong kidul kabupaten garut jawa barat 44151',
             'jam'       => 'Senin – Jumat, 07.00 – 15.30 WIB',
@@ -34,7 +34,7 @@ class KontakController extends Controller
         ]);
 
         // TODO: simpan ke database atau kirim email, contoh:
-        // Mail::to('xirpl05@sekolahdigital.sch.id')->send(new PesanKontak($validated));
+        // Mail::to('xirpl02@sekolahdigital.sch.id')->send(new PesanKontak($validated));
 
         return back()->with('success', 'Terima kasih, ' . $validated['nama'] . '! Pesan kamu sudah kami terima.');
     }

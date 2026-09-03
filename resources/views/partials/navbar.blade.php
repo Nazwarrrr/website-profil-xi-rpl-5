@@ -3,7 +3,7 @@
         <a href="{{ route('beranda') }}" class="brand">
             <div class="brand-mark">XI</div>
             <div class="brand-copy">
-                <strong>RPL 05</strong>
+                <strong>RPL 02</strong>
                 <span>Digital Space</span>
             </div>
         </a>

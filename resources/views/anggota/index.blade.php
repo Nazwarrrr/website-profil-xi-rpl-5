@@ -10,7 +10,7 @@
             <a href="{{ route('beranda') }}">Beranda</a> <span>/</span> <span style="color:var(--text-secondary);">Anggota</span>
         </nav>
         <h1 class="section-title reveal">Struktur Organisasi &amp; Anggota Tim</h1>
-        <p class="section-sub reveal">Empat peran inti di balik pengembangan Website Profil XI RPL 05.</p>
+        <p class="section-sub reveal">Empat peran inti di balik pengembangan Website Profil XI RPL 02.</p>
     </div>
 </section>
 
