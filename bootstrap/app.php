@@ -17,7 +17,7 @@ $app = Application::configure(basePath: dirname(__DIR__))
         //
     })->create();
 
-// Ubah direktori storage ke /tmp khusus di Vercel
+// Mengarahkan folder storage ke /tmp khusus Vercel
 if (isset($_ENV['VERCEL']) || isset($_SERVER['VERCEL'])) {
     $app->useStoragePath('/tmp');
 }
