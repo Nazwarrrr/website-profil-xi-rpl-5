@@ -111,3 +111,4 @@ X. PERTANYAAN CONFLICT
 4. Mengapa komunikasi antar programmer penting?
 
 3.Project manager atau pemimpin project tersebut
+4.Komunikasi yang baik mencegah perubahan bertumpuk pada berkas yang sama, mempermudah koordinasi alur kerja, dan mempercepat penyelesaian (resolution) saat konflik kode terjadi.
