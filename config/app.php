@@ -123,4 +123,7 @@ return [
         'store' => env('APP_MAINTENANCE_STORE', 'database'),
     ],
 
+    'compiled' => env('VIEW_COMPILED_PATH', realpath(storage_path('framework/views'))),
+
+
 ];
