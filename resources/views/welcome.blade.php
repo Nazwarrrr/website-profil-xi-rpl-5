@@ -89,3 +89,4 @@
 @push('scripts')
 <script src="{{ asset('js/pages/welcome.js') }}"></script>
 @endpush
+<!--!tes!-->
