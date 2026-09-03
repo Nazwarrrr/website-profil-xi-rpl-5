@@ -110,5 +110,6 @@ X. PERTANYAAN CONFLICT
 3. Siapa yang harus menentukan versi kode yang benar? 
 4. Mengapa komunikasi antar programmer penting?
 
+2.Tidak. Konflik justru menunjukkan bahwa Git bekerja dengan benar. Git sengaja berhenti dan meminta bantuan manusia agar perubahan kode salah satu tim tidak tertimpa (overwrite) secara tidak sengaja.
 3.Project manager atau pemimpin project tersebut
 4.Komunikasi yang baik mencegah perubahan bertumpuk pada berkas yang sama, mempermudah koordinasi alur kerja, dan mempercepat penyelesaian (resolution) saat konflik kode terjadi.
