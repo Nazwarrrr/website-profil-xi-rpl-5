@@ -17,9 +17,10 @@ $app = Application::configure(basePath: dirname(__DIR__))
         //
     })->create();
 
-// Mengarahkan folder storage ke /tmp khusus Vercel
+// Konfigurasi khusus untuk serverless Vercel
 if (isset($_ENV['VERCEL']) || isset($_SERVER['VERCEL'])) {
     $app->useStoragePath('/tmp');
+    config(['logging.default' => 'stderr']);
 }
 
 return $app;
