@@ -6,6 +6,5 @@ $_ENV['APP_PACKAGES_CACHE'] = '/tmp/packages.php';
 $_ENV['APP_ROUTES_CACHE'] = '/tmp/routes.php';
 $_ENV['APP_SERVICES_CACHE'] = '/tmp/services.php';
 $_ENV['VIEW_COMPILED_PATH'] = '/tmp';
-$_ENV['LOG_CHANNEL'] = 'stderr';
 
 require __DIR__ . '/../public/index.php';
