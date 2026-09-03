@@ -13,8 +13,8 @@ class KontakController extends Controller
     {
         $kontak = [
             'email'     => 'xirpl05@sekolahdigital.sch.id',
-            'instagram' => '@xi_rpl05',
-            'alamat'    => 'Jl. Pendidikan Digital No. 5, Bandung',
+            'instagram' => '@laravellequent_11rpl2',
+            'alamat'    => 'Jl. cimanuk no 309A kelurahan pataruman kecamatan tarogong kidul kabupaten garut jawa barat 44151',
             'jam'       => 'Senin – Jumat, 07.00 – 15.30 WIB',
         ];
 
