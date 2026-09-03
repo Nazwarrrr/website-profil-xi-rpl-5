@@ -1,5 +1,8 @@
 <?php
 
+$_ENV['LOG_CHANNEL'] = 'errorlog';
+putenv('LOG_CHANNEL=errorlog');
+
 $_ENV['APP_CONFIG_CACHE'] = '/tmp/config.php';
 $_ENV['APP_EVENTS_CACHE'] = '/tmp/events.php';
 $_ENV['APP_PACKAGES_CACHE'] = '/tmp/packages.php';
