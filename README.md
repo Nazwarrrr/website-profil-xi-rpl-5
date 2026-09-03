@@ -112,7 +112,7 @@ X. PERTANYAAN CONFLICT
 
 1.mengapa conflict terjadi?
 -Merge conflict terjadi ketika Git tidak dapat menggabungkan perubahan kode secara otomatis.
--Penyebab utamanya adalah ketika dua programmer mengubah baris kode yang sama di file yang sama secara berbeda, atau ketika salah satu programmer menghapus file yang sedang diubah oleh programmer lain.
-2.Tidak. Konflik justru menunjukkan bahwa Git bekerja dengan benar. Git sengaja berhenti dan meminta bantuan manusia agar perubahan kode salah satu tim tidak tertimpa (overwrite) secara tidak sengaja.
-3.Project manager atau pemimpin project tersebut
-4.Komunikasi yang baik mencegah perubahan bertumpuk pada berkas yang sama, mempermudah koordinasi alur kerja, dan mempercepat penyelesaian (resolution) saat konflik kode terjadi.
+-Penyebab utamanya adalah ketika dua programmer mengubah baris kode yang sama di file yang sama secara berbeda, atau ketika salah satu programmer menghapus file yang sedang diubah oleh programmer lain.  
+2.Tidak. Konflik justru menunjukkan bahwa Git bekerja dengan benar. Git sengaja berhenti dan meminta bantuan manusia agar perubahan kode salah satu tim tidak tertimpa (overwrite) secara tidak sengaja.  
+3.Project manager atau pemimpin project tersebut  
+4.Komunikasi yang baik mencegah perubahan bertumpuk pada berkas yang sama, mempermudah koordinasi alur kerja, dan mempercepat penyelesaian (resolution) saat konflik kode terjadi.  
