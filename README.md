@@ -74,3 +74,40 @@ Developer Kontak / Frontend
 7. Kontribusi Terbesar: Membuat antarmuka kartu informasi dan form kontak yang responsif serta memastikan seluruh tombol navigasi terhubung.
 
 8. Kebiasaan Profesional: Menulis pesan commit yang jelas dan deskriptif serta menjaga komunikasi aktif antar sesama developer.
+
+U. PERTANYAAN ANALISIS 
+1. Apa fungsi git pull ?
+2. Apa yang terjadi jika programmer tidak melakukan git pull ?
+3. Mengapa main harus dijaga agar tetap stabil?
+
+1. Fungsi git pull
+-git pull berfungsi untuk mengambil (fetch) perubahan terbaru dari repositori remote (seperti GitHub/GitLab) sekaligus mencampurkannya (merge) ke dalam branch lokal yang sedang kamu kerjakan.
+
+-Secara teknis, perintah ini adalah gabungan dari dua perintah:
+git pull = git fetch + git merge
+
+2. Risiko jika Tidak Melakukan git pull
+Jika programmer langsung bekerja dan mencoba push tanpa git pull terlebih dahulu:
+
+-Terjadi Conflict (Merge Conflict): Kode di lokal akan ketinggalan zaman (out-of-date). Saat mencoba memuat perubahan baru ke remote, Git akan menolak (rejected) karena ada perbedaan versi.
+
+-Menimpa Kode Teman Tim: Berisiko menghapus atau menimpa fitur yang sudah dibuat oleh anggota tim lain tanpa disadari.
+
+-Kerja Dua Kali: Kamu harus meluangkan waktu ekstra untuk membedakan dan menyatukan kode secara manual saat konflik terjadi.
+
+3. Alasan Branch main Harus Dijaga Tetap Stabil
+Branch main (atau master) adalah sumber kebenaran tunggal (single source of truth) dari suatu proyek.
+
+-Siap Rilis/Deploy: Kode di branch main idealnya adalah versi yang siap diunggah ke production atau diuji coba oleh pengguna kapan saja tanpa error.
+
+-Acuan Anggota Tim: Setiap programmer akan membuat branch baru (feature branch) berdasarkan kode dari main. Jika main rusak atau buggy, semua programmer yang mengambil kode dari situ akan ikut mendapati proyek mereka rusak.
+
+-Mencegah Kaus Pengembangan: Menjaga main tetap bersih membuat riwayat pengembangan proyek tertata rapi dan mudah dilacak jika terjadi masalah.
+
+X. PERTANYAAN CONFLICT 
+1. Mengapa conflict terjadi?
+2. Apakah conflict berarti Git rusak?
+3. Siapa yang harus menentukan versi kode yang benar? 
+4. Mengapa komunikasi antar programmer penting?
+
+3.Project manager atau pemimpin project tersebut
