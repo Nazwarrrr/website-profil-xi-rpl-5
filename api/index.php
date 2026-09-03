@@ -1,7 +1,9 @@
 <?php
 
-$_ENV['LOG_CHANNEL'] = 'errorlog';
+// Override environment variables
 putenv('LOG_CHANNEL=errorlog');
+$_ENV['LOG_CHANNEL'] = 'errorlog';
+$_SERVER['LOG_CHANNEL'] = 'errorlog';
 
 $_ENV['APP_CONFIG_CACHE'] = '/tmp/config.php';
 $_ENV['APP_EVENTS_CACHE'] = '/tmp/events.php';
